@@ -18,7 +18,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置分组标志位
 custom_proxy_group=🔰 国外网站`select`[]✈ 故障切换`[]✈ 延迟最低`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]📌 手动切换`.*`[]DIRECT
 custom_proxy_group=📲 电报吹水`select`[]🔰 国外网站`[]✈ 故障切换`[]✈ 延迟最低`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]📌 手动切换`.*`[]DIRECT
-custom_proxy_group=🎥 NETFLIX`select`[]🎥 奈非节点`(NF|解锁|Netflix|NETFLIX)`[]DIRECT
+custom_proxy_group=🎥 NETFLIX`select`[]🎥 奈非节点`(NF|解锁|Netflix|NETFLIX)`.*`[]DIRECT
 custom_proxy_group=📺 巴哈姆特`select`[]✈ 故障切换`[]✈ 延迟最低`[]🇨🇳 台湾节点`[]📌 手动切换`[]DIRECT
 custom_proxy_group=🌍 国际媒体`select`[]🔰 国外网站`[]✈ 故障切换`[]✈ 延迟最低`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]📌 手动切换`.*`[]DIRECT
 custom_proxy_group=🌏 港台媒体`select`[]✈ 故障切换`[]✈ 延迟最低`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`.*`[]DIRECT`[]📌 手动切换
