@@ -1,5 +1,5 @@
 ;设置规则标志位
-DOMAIN-KEYWORD,agora,MATCH
+DOMAIN-KEYWORD,agora,🐟 漏网之鱼
 surge_ruleset=DIRECT,rules/LocalAreaNetwork.list
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 拦截连接,rules/ConnersHua/Surge/Ruleset/Hijacking.list
