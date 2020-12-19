@@ -37,7 +37,7 @@ custom_proxy_group=🎥 奈非节点`select`(NF|解锁|Netflix|NETFLIX)
 custom_proxy_group=🛑 拦截连接`select`[]REJECT`[]DIRECT
 ;设置分组标志位
 
-clash_rule_base=https://raw.githubusercontent.com/lzdnico/subconverteriniexample/master/config/forcerule.yml
+clash_rule_base=https://raw.githubusercontent.com/ldh1983/subconverteriniexample/master/config/my.yml
 surge_rule_base=https://raw.githubusercontent.com/lzdnico/subconverteriniexample/master/config/surge.conf
 ;surfboard_rule_base=surfboard.conf
 ;mellow_rule_base=mellow.conf
