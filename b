@@ -1,5 +1,5 @@
 ;设置规则标志位
-surge_ruleset=🐟 漏网之鱼,https://raw.githubusercontent.com/ldh1983/rules-bak/main/w.list
+surge_ruleset=🔰 UDP,https://raw.githubusercontent.com/ldh1983/rules-bak/main/w.list
 surge_ruleset=DIRECT,rules/LocalAreaNetwork.list
 surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
 surge_ruleset=🛑 拦截连接,rules/ConnersHua/Surge/Ruleset/Hijacking.list
@@ -17,6 +17,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
 
 ;设置分组标志位
+custom_proxy_group=🔰 UDP`select`[]✈ 故障切换`[]✈ 延迟最低`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]📌 手动切换`.*`[]DIRECT
 custom_proxy_group=🔰 国外网站`select`[]✈ 故障切换`[]✈ 延迟最低`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]📌 手动切换`.*`[]DIRECT
 custom_proxy_group=📲 电报吹水`select`[]🔰 国外网站`[]✈ 故障切换`[]✈ 延迟最低`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]📌 手动切换`.*`[]DIRECT
 custom_proxy_group=🎥 NETFLIX`select`[]🎥 奈非节点`(NF|解锁|Netflix|NETFLIX)`.*`[]DIRECT
@@ -34,7 +35,7 @@ custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄�
 custom_proxy_group=🇸🇬 狮城节点`url-test`(新|狮城|SG)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=📌 手动切换`select`.*
 custom_proxy_group=🎥 奈非节点`select`(NF|解锁|Netflix|NETFLIX)
-custom_proxy_group=🛑 拦截连接`select`[]REJECT`[]DIRECT
+custom_proxy_group=🛑 拦截连接`select`[]REJECT`[]DIRECT`[]✈ 故障切换`[]✈ 延迟最低`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]📌 手动切换`.*
 ;设置分组标志位
 
 clash_rule_base=https://raw.githubusercontent.com/ldh1983/subconverteriniexample/master/config/my1.yml
